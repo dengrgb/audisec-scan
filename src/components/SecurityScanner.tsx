@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -233,7 +234,7 @@ export const SecurityScanner = () => {
         <div className="text-center space-y-4">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-card rounded-full border">
             <Shield className="w-5 h-5 text-primary" />
-            <span className="text-sm font-medium">AudiSec Scanner</span>
+            <span className="text-sm font-medium">SafeURL Scanner</span>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary to-cyber-blue bg-clip-text text-transparent">
             Security Scanner
