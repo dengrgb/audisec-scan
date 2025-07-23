@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Mic, MicOff } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
-import "../types/speech";
 
 interface VoiceControlProps {
   onUrlReceived: (url: string) => void;
